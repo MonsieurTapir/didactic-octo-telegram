@@ -1,0 +1,29 @@
+@use '../../../common' as *;
+.modal-wrapper{
+  z-index: 100;
+  border-radius: 5px;
+}
+.close-btn{
+  position: absolute;
+  right:16px;
+  top:16px;
+  z-index: 103;
+  color: white;
+  border-radius: 50%;
+  padding: 0;
+  cursor: pointer;
+  background-color: rgba(black, 0.3);
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  span{
+    line-height: 28px;
+  }
+}
+
+.modal-content{
+  position: relative;
+  z-index: 102;
+  box-shadow: 0 0 25px rgba(black,0.4);
+  overflow: auto;
+}

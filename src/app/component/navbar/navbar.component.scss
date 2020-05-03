@@ -1,0 +1,31 @@
+@use '../../../common';
+:host{
+  background-color: var(--nav-color);
+  box-shadow: 0 0 10px rgba(black, var(--shadow-opacity));
+  z-index: 10;
+}
+nav{
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  @media screen and (max-width: 768px){
+    grid-template-columns: 1fr;
+  }
+  height: 100%;
+  padding: 0 15px;
+}
+.title{
+  font-size: 1.5em;
+  font-family: 'Roboto Condensed', "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  align-self: center;
+  justify-self: left;
+}
+tapir-menu{
+  justify-self: right;
+
+  @media screen and (max-width: 768px){
+    justify-self: center;
+  }
+}

@@ -1,0 +1,11 @@
+:host{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: var(--nav-height) 0 1fr 50px;
+  min-height: 100%;
+  align-items: center;
+}
+tapir-navbar{
+  position: sticky;
+  top: 0;
+}

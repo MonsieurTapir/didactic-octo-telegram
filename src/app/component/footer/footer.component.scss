@@ -1,0 +1,15 @@
+:host{
+  height: 100%;
+  font-size: small;
+  background-color: var(--nav-color);
+  box-shadow: 0 -3px 3px rgba(black, var(--shadow-opacity));
+  color: rgba(var(--text-highlight), var(--text-secondary-opacity));
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: var(--text-highlight);
+  }
+}

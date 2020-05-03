@@ -1,0 +1,13 @@
+<div tapirFade   class="header">
+  <div class="container">
+    <h2 class="title">Projets personnels</h2>
+  </div>
+</div>
+
+<div class="project-grid" *ngIf="projects$ | async as projects">
+      <tapir-side-project *ngFor="let model of projects;" tapirFade [model]="model" (imageClicked)="showImage($event)"></tapir-side-project>
+</div>
+
+<tapir-modal [show]="imageShown !== undefined" (backdropClick)="imageShown=undefined" [withCloseBtn]="true">
+  <div><img class="full-img" [src]="imageShown"/></div>
+</tapir-modal>

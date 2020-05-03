@@ -12,7 +12,7 @@
       },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "tapir",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "monsieurtapir"
+    }
+  },
+  "defaultProject": "monsieurtapir",
+  "cli": {
+    "analytics": false
+  }
 }

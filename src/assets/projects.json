@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Bread Recipes",
+    "description": "Application de gestion de recettes de pain et publication d'histoires. L'utilisateur peut d'une part saisir une recette, et d'autre part démarrer une histoire (i.e. une tentative) à partir d'une recette. Une histoire est composée de chapitres et chaque chapitre comporte une description et des images. Serveur développé en Spring Kotlin, client en Angular 9. Déployé sur Heroku.",
+    "url": "https://bread-recipes-dev.herokuapp.com",
+    "screenName": "bread-recipes.png",
+    "gitLink": "https://gitlab.com/monsieurtapir/bread-recipes",
+    "year": 2020
+  },
+  {
+    "title": "Wolcen Passive Tree",
+    "description": "Ébauche de l'arbre de talents du jeu vidéo Wolcen. Les données ont été extraites des fichiers XML du jeu par des scripts écrits en Ruby. L'application est développée en Angular 9. Le projet est déployé en intégration continue (CI) sur Gitlab et Heroku.",
+    "url": "https://wolcen-build.herokuapp.com/pst",
+    "screenName": "wolcen.png",
+    "gitLink": "https://gitlab.com/monsieurtapir/wolcen-build",
+    "year": 2020
+  },
+  {
+    "title": "Factorio helper",
+    "description": "Outil d'aide au calcul de chaînes de production pour le jeu vidéo Factorio. Application en ligne de commande développée en Ruby.",
+    "screenName": "factorio.png",
+    "gitLink": "https://github.com/MonsieurTapir/factorio-helper",
+    "year": 2018
+  },
+  {
+    "title": "Codenames Online",
+    "description": "Version en ligne du célèbre jeu de plateau Codenames. Développé en Python/Flask. Le moteur du jeu utilise des sockets web (Flask-SocketIO). Le design repose sur le framework CSS Materialize. Déployé sur Heroku",
+    "url": "https://cnames.herokuapp.com",
+    "screenName": "codenames.png",
+    "gitLink": "https://github.com/MonsieurTapir/cnames",
+    "year": 2017
+  }
+]

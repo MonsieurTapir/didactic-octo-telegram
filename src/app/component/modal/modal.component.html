@@ -1,0 +1,10 @@
+<ng-template #modal>
+  <div class="modal-content" [@slideContent]="animationState">
+    <div *ngIf="withCloseBtn" class="close-btn" (click)="close()">
+      <span  class="material-icons" >
+        close
+     </span>
+    </div>
+    <ng-content></ng-content>
+  </div>
+</ng-template>

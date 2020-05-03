@@ -1,0 +1,14 @@
+<div class="header">
+  <span class="title">{{model.title}}</span>
+  <span class="year">{{model.year}}</span>
+</div>
+<div class="desc">
+  {{model.description}}
+</div>
+<div class="links">
+  <a class="gitlink" *ngIf="model.gitLink" [href]="model.gitLink"> Dépôt </a>
+  <a class="weblink" *ngIf="model.url" [href]="model.url"> Visiter </a>
+</div>
+<div class="screen">
+  <img (click)="clickedImage('assets/img/'+model.screenName)"[src]="'assets/img/'+model.screenName"/>
+</div>

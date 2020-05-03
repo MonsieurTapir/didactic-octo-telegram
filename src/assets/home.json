@@ -1,0 +1,9 @@
+{
+  "name": "Valentin Pollet",
+  "job": "Docteur en Informatique",
+  "github": "https://github.com",
+  "gitlab": "https://gitlab.com",
+  "linkedIn": "https://linkedin.com",
+  "shortInfo": "Je suis un jeune docteur en informatique basé à Montpellier (France). J'ai obtenu en 2014 une licence en mathématiques puis un master en informatique théorique en 2016. J'ai soutenu mon doctorat en informatique au sein du Laboratoire d'Informatique, Robotique et Micro-électronique de Montpellier (LIRMM) en octobre 2019. Ma thèse se consacrait à l'étude complète de divers problèmes d'optimisation dans les graphes.",
+  "workInfo": "J'ai rejoint en février 2020 l'entreprise ITK, spécialisée dans le développement d'outils informatiques d'aide à la décision pour l'agriculture. J'y occupe un poste de développeur en Recherche & Développement. Je travaille sur le développement d'applications web en Spring Kotlin/Angular9 intégrant des simulateurs agronomiques pour prédire les besoins en eau, fertilisant ou encore traitement des maladies de diverses cultures (maïs, blé, raisin, amandes)"
+}

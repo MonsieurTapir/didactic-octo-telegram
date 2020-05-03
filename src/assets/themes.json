@@ -1,0 +1,41 @@
+{
+  "default": "dark",
+
+  "themes": [
+    {
+      "name": "dark",
+      "background": "#151515",
+      "surface": "#222222",
+      "nav-color": "#222222",
+      "main-color": "#94E8B4",
+      "accent-color": "#FFC1CF",
+      "main-darker": "#1D2D44",
+      "shadow-opacity": 0.5,
+      "text-highlight": "148,232,180",
+      "text": "255,255,255",
+      "text-main-opacity": 0.87,
+      "text-secondary-opacity": 0.67,
+      "text-on-img": "#fafafa",
+      "nav-height": "50px",
+      "home-img": "url(/assets/img/back.jpg)"
+    },
+    {
+      "name": "light",
+      "background": "#fff",
+      "surface": "#ffffff",
+      "nav-color": "#008568",
+      "main-color": "#39b39b",
+      "accent-color": "#df546e",
+      "main-darker": "#1D2D44",
+      "shadow-opacity": 0.3,
+      "text-highlight": "255,255,255",
+      "text": "0,0,0",
+      "text-main-opacity": 0.87,
+      "text-secondary-opacity": 0.67,
+      "text-on-img": "#fafafa",
+      "nav-height": "50px",
+      "home-img": "url(/assets/img/back.jpg)"
+    }
+
+  ]
+}
